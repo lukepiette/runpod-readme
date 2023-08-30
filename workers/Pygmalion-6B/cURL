@@ -1,0 +1,15 @@
+curl --request POST \
+     --url https://api.runpod.ai/v2/pygmalion-6b/runsync \
+     --header 'accept: application/json' \
+     --header 'authorization: APIKEY' \
+     --header 'content-type: application/json' \
+     --data @- <<EOF
+{
+  "input": {
+    "prompt": "Why, sometimes I've believed as many as six impossible things",
+    "do_sample": false,
+    "max_length": 100,
+    "temperature": 0.9
+  }
+}
+EOF
