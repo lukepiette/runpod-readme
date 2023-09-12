@@ -12,6 +12,11 @@
         "placeholder":100
       },
       {
+        "name":"temperature",
+        "type":"float",
+        "placeholder":0.7
+      },
+      {
         "name":"presence_penalty",
         "type":"float",
         "placeholder":0.3
