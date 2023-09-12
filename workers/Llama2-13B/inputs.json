@@ -1,25 +1,25 @@
 {"inputs":[
   {
-    name:"prompt",
-    type:"string",
-    placeholder:"what is the meaning of life?"
+    "name":"prompt",
+    "type":"string",
+    "placeholder":"what is the meaning of life?"
   },
   {
-    sampling_params:[
+    "sampling_params":[
       {
-        name:"max_tokens",
-        type:"integer",
-        placeholder:100
+        "name":"max_tokens",
+        "type":"integer",
+        "placeholder":100
       },
       {
-        name:"presence_penalty",
-        type:"float",
-        placeholder:0.3
+        "name":"presence_penalty",
+        "type":"float",
+        "placeholder":0.3
       },
       {
-        name:"use_beam_search",
-        type:"boolean",
-        placeholder:true
+        "name":"use_beam_search",
+        "type":"boolean",
+        "placeholder":true
       }
     ]
   }
